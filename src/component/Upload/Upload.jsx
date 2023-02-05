@@ -36,7 +36,7 @@ const Upload = () => {
                                     const ojjectUrl = URL.createObjectURL(data)
 
 
-                                    return   <div className="preview-item" >
+                                    return   <div className="preview-item" key={index} >
                                    <div className="card">
                                     <div className="card-body">
                                     <img style={{width:'200px', height:'300px', objectFit:'cover'}} src={ojjectUrl} alt="" />
